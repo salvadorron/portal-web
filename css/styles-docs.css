@@ -1,0 +1,48 @@
+main h2{
+	display: inline-block;
+	font-size: 24px;
+	line-height: 42px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border-bottom: 4px solid #9e110e;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #1e1e1e;
+
+}
+
+main button{
+	position: absolute;
+	display: block;
+	left: 52%;
+	bottom: 15px;
+	margin-top: 5px;
+	background: #bbbbbb;
+	color: #1e1e1e;
+	font-size: 12px;
+	padding: 8px;
+	border: 4px solid #9e110e;
+	border-radius: 10px;
+}
+
+main button:hover{
+	background: #9e110e;
+	border: 4px solid #fff;
+	color: #fff;
+	cursor: pointer;
+}
+
+.content-doc{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 80%;
+	height: 80%;
+	border: 8px solid #9e110e;
+	border-radius: 8px;
+}
+
+.content-doc object{
+	width: 100%;
+	height: 100%;
+}
